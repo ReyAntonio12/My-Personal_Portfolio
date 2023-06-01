@@ -99,7 +99,7 @@
 
   #titlePortfolio,
   #descriptionPortfolio {
-      /* Color */
+    /* Color */
     color: #172b4d;
   }
 
@@ -150,7 +150,7 @@
     display: none;
   }
 
-    /* Main text */
+  /* Main text */
 
   #titlePortfolio,
   #developerPortfolio {
@@ -193,7 +193,7 @@
   }
 }
 
-  /* Transitions */
+/* Transitions */
 
 .brand--icon:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127);

@@ -1,6 +1,6 @@
 /* Adjusting every box to the hole body of the page */
 
-.main__container{
+.main__container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -9,7 +9,7 @@
 
 /* Adjusting navigation bar to the top */
 
-.container_menu{
+.container_menu {
   position: fixed;
   top: 0;
   width: 100%;
@@ -17,13 +17,15 @@
   display: flex;
   flex-direction: row-reverse;
 }
-.container--nav{
+
+.container--nav {
   width: 375px;
   height: 92px;
-  
 }
 
-/* Adjusting changes to navigation bar */.navegation--list{
+/* Adjusting changes to navigation bar */
+
+.navegation--list {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -31,13 +33,13 @@
 
 /* About the relevant information */
 
-.main__containerinfo{
+.main__containerinfo {
   padding-top: 100px;
 }
 
 /* Adjusting mapping for icons */
 
-.container__icons{
+.container__icons {
   width: 50%;
   display: flex;
   justify-content: space-evenly;
@@ -45,33 +47,34 @@
 
 /* Sizing the icons to be adjusted to lading page */
 
-.brand--icon, .icon--image{
+.brand--icon, .icon--image {
   height: 19.99px;
   width: 19.99px;
   border-radius: 0px;
 }
 /* Media queries for responsive design */
 /* Phone */
-@media (max-width: 650px){
-  body{
+@media (max-width: 650px) {
+
+  body { 
     background-image: url('images/mobile_background.png');
     background-size: cover;
     background-repeat: no-repeat;
-    }
+  }
 
-    /* Navigation buton */
+  /* Navigation buton */
 
-  .navegation--list{
+  .navegation--list {
     display: none;
   }
 
-  .container--nav{
+  .container--nav {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
   }
 
-  .menu--image{
+  .menu--image {
     width: auto;
     height: auto;
     display: flex;
@@ -81,8 +84,8 @@
 
     /* Main information */
 
-  #titlePortfolio, #developerPortfolio{
-    font-family: 'Inter';
+  #titlePortfolio, #developerPortfolio {
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -90,18 +93,18 @@
     text-align: center; 
    }
 
-  #titlePortfolio, #descriptionPortfolio{
+  #titlePortfolio, #descriptionPortfolio {
     /* Color */
     color: #172B4D;
   }
 
-  #developerPortfolio{
+  #developerPortfolio {
     /* Color */
     color: #36B37E;
   }
 
-  #descriptionPortfolio{
-    font-family: 'Inter';
+  #descriptionPortfolio {
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -112,41 +115,42 @@
 
   /* Desktop / Laptop */
   @media (min-width: 651px) {
-    body{
+
+    body { 
       background-image: url('images/desktop_background.png');
       background-size: cover;
       background-repeat: no-repeat;
     }
-
+    
     /* Navigation */
-
-    .container--nav{
+    
+    .container--nav {
       width: 100%;
       display: flex;
       justify-content: center;
       align-items: flex-end;
     }
 
-    .navegation--list{
+    .navegation--list {
       width: 50%;
       display: flex;
       justify-content: space-evenly;
     }
 
-    .navigation--option{
+    .navigation--option {
       font-family: 'Inter';
       color: #172B4D;
     }
 
-    .menu--image{
+    .menu--image {
       display: none;
     }
 
     /* Main text */
 
-    #titlePortfolio, #developerPortfolio{
+    #titlePortfolio, #developerPortfolio {
       width: 920px;
-      font-family: 'Inter';
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 800;
       font-size: 48px;
@@ -155,35 +159,36 @@
       letter-spacing: 0.37px;
     }
 
-    #titlePortfolio, #descriptionPortfolio{
+    #titlePortfolio{
         /* Color */
       color: #172B4D;
     }
 
-    #developerPortfolio{
+    #developerPortfolio {
         /* Color */
       color: #36B37E;
     }
 
-    #descriptionPortfolio{
+    #descriptionPortfolio {
       width: 920px;
       height: 96px;
-      font-family: 'Inter';
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 20px;
       line-height: 32px;
       text-align: center;
+      color: #172B4D;
     }
 
-    #titlePortfolio, #descriptionPortfolio{
+    #titlePortfolio, #descriptionPortfolio {
         /* Color */
       color: #172B4D;
     }
-  }
+}
 
   /* Transitions */
 
-  .brand--icon:hover{
+  .brand--icon:hover {
      box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24)
 }

@@ -89,23 +89,23 @@
 
   #titlePortfolio,
   #developerPortfolio {
-      font-family: 'Inter', sans-serif;
-      font-style: normal;
-      font-weight: 700px;
-      font-size: 40px;
-      line-height: 52px;
-      text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
   }
 
   #titlePortfolio,
   #descriptionPortfolio {
       /* Color */
-      color: #172b4d;
+    color: #172b4d;
   }
 
   #developerPortfolio {
     /* Color */
-      color: #36b37e;
+    color: #36b37e;
   }
 
   #descriptionPortfolio {
@@ -121,75 +121,75 @@
 /* Desktop / Laptop */
 @media (min-width: 651px) {
   body {
-      background-image: url('images/desktop_background.png');
-      background-size: cover;
-      background-repeat: no-repeat;
+    background-image: url('images/desktop_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   /* Navigation */
 
   .container--nav {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
   }
- 
+
   .navegation--list {
-      width: 50%;
-      display: flex;
-      justify-content: space-evenly;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .navigation--option {
-      font-family: 'Inter', sans-serif;
-      color: #172b4d;
-    }
+    font-family: 'Inter', sans-serif;
+    color: #172b4d;
+  }
 
   .menu--image {
-      display: none;
+    display: none;
   }
 
     /* Main text */
 
   #titlePortfolio,
   #developerPortfolio {
-        width: 920px;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 800px;
-        font-size: 48px;
-        line-height: 60px;
-        text-align: center;
-        letter-spacing: 0.37px;
+    width: 920px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.37px;
   }
 
   #titlePortfolio {
-      /* Color */
-      color: #172b4d;
+    /* Color */
+    color: #172b4d;
   }
- 
+
   #developerPortfolio {
-      /* Color */
-      color: #36b37e;
+    /* Color */
+    color: #36b37e;
   }
- 
+
   #descriptionPortfolio {
-         width: 920px;
-         height: 96px;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 400px;
-        font-size: 20px;
-        line-height: 32px;
-        text-align: center;
-        color: #172b4d;
+    width: 920px;
+    height: 96px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #172b4d;
   }
 
   #titlePortfolio,
   #descriptionPortfolio {
-      /* Color */
-      color: #172b4d;
+    /* Color */
+    color: #172b4d;
   }
 }
 

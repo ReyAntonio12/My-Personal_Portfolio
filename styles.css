@@ -14,7 +14,6 @@
   top: 0;
   width: 100%;
   height: 10%;
-  background-color: #ffffff;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -36,7 +35,15 @@
 /* About the relevant information */
 
 .main__containerinfo{
-    padding-top: 50px;
+    padding-top: 100px;
+}
+
+/* Adjusting mapping for icons */
+
+.container__icons{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* Sizing the icons to be adjusted to lading page */
@@ -50,12 +57,135 @@
 /*Media queries for responsive design*/
 
 /* Phone */
-@media (max-width: 650px) {
-    /* Agrega aquí tus estilos CSS para dispositivos móviles */
+@media (max-width: 650px){
+  body{
+    background-image: url('images/mobile_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    /*Navigation buton*/
+
+    .navegation--list{
+        display: none;
+        
+    }
+
+    .container--nav{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .menu--image{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-self: center;
+    }
+
+    /*Main information*/
+
+    #titlePortfolio, #developerPortfolio{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      text-align: center;
+      
+    }
+
+    #titlePortfolio, #descriptionPortfolio{
+        /* Color */
+      color: #172B4D;
+    }
+
+    #developerPortfolio{
+        /* Color */
+      color: #36B37E;
+    }
+
+    #descriptionPortfolio{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+    }
   }
-  
-  /* Estilos para escritorios */
+
+  /* Desktop / Laptop */
   @media (min-width: 651px) {
-    /* Agrega aquí tus estilos CSS para escritorios */
+    body{
+      background-image: url('images/desktop_background.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    /*Navigation*/
+
+    .container--nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .navegation--list{
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navigation--option{
+        font-family: 'Inter';
+        color: #172B4D;
+    }
+
+    .menu--image{
+        display: none;
+    }
+
+    /* Main text */
+
+    #titlePortfolio, #developerPortfolio{
+      width: 920px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 60px;
+      text-align: center;
+      letter-spacing: 0.37px;
+    }
+
+    #titlePortfolio, #descriptionPortfolio{
+        /* Color */
+      color: #172B4D;
+    }
+
+    #developerPortfolio{
+        /* Color */
+      color: #36B37E;
+    }
+
+    #descriptionPortfolio{
+      width: 920px;
+      height: 96px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+    }
+
+    #titlePortfolio, #descriptionPortfolio{
+        /* Color */
+      color: #172B4D;
+    }
   }
   

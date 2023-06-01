@@ -47,11 +47,11 @@
 
 /* Sizing the icons to be adjusted to lading page */
 
-.brand--icon, 
+.brand--icon,
 .icon--image {
   height: 19px;
   width: 19px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 /* Media queries for responsive design */
@@ -59,8 +59,8 @@
 /* Phone */
 
 @media (max-width: 650px) {
+  body {
 
-  body { 
     background-image: url('images/mobile_background.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,14 +73,12 @@
   }
 
   .container--nav {
-
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
   }
 
   .menu--image {
-
     width: auto;
     height: auto;
     display: flex;
@@ -90,9 +88,8 @@
 
     /* Main information */
 
-  #titlePortfolio, 
-  #developerPortfolio {
-
+  #titlePortfolio,
+    #developerPortfolio {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700px;
@@ -101,8 +98,8 @@
     text-align: center;
  }
 
-  #titlePortfolio, 
-  #descriptionPortfolio {
+  #titlePortfolio,
+    #descriptionPortfolio {
     /* Color */
     color: #172b4d;
   }
@@ -125,18 +122,15 @@
 
   /* Desktop / Laptop */
   @media (min-width: 651px) {
-
     body {
-
       background-image: url('images/desktop_background.png');
       background-size: cover;
       background-repeat: no-repeat;
     }
-    
+
     /* Navigation */
     
     .container--nav {
-
       width: 100%;
       display: flex;
       justify-content: center;
@@ -144,14 +138,12 @@
     }
 
     .navegation--list {
-
       width: 50%;
       display: flex;
       justify-content: space-evenly;
     }
 
     .navigation--option {
-
       font-family: 'Inter', sans-serif;
       color: #172b4d;
     }
@@ -162,9 +154,8 @@
 
     /* Main text */
 
-    #titlePortfolio, 
-    #developerPortfolio {
-
+    #titlePortfolio,
+      #developerPortfolio {
       width: 920px;
       font-family: 'Inter', sans-serif;
       font-style: normal;
@@ -175,7 +166,7 @@
       letter-spacing: 0.37px;
     }
 
-    #titlePortfolio{
+    #titlePortfolio {
         /* Color */
       color: #172b4d;
     }
@@ -186,7 +177,6 @@
     }
 
     #descriptionPortfolio {
-
       width: 920px;
       height: 96px;
       font-family: 'Inter', sans-serif;
@@ -198,8 +188,8 @@
       color: #172b4d;
     }
 
-    #titlePortfolio, 
-    #descriptionPortfolio {
+    #titlePortfolio,
+      #descriptionPortfolio {
         /* Color */
       color: #172b4d;
     }

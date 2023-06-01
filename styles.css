@@ -47,13 +47,17 @@
 
 /* Sizing the icons to be adjusted to lading page */
 
-.brand--icon, .icon--image {
-  height: 19.99px;
-  width: 19.99px;
+.brand--icon, 
+.icon--image {
+  height: 19px;
+  width: 19px;
   border-radius: 0px;
 }
+
 /* Media queries for responsive design */
+
 /* Phone */
+
 @media (max-width: 650px) {
 
   body { 
@@ -69,12 +73,14 @@
   }
 
   .container--nav {
+
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
   }
 
   .menu--image {
+
     width: auto;
     height: auto;
     display: flex;
@@ -84,29 +90,33 @@
 
     /* Main information */
 
-  #titlePortfolio, #developerPortfolio {
+  #titlePortfolio, 
+  #developerPortfolio {
+
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 40px;
     line-height: 52px;
-    text-align: center; 
-   }
+    text-align: center;
+ }
 
-  #titlePortfolio, #descriptionPortfolio {
+  #titlePortfolio, 
+  #descriptionPortfolio {
     /* Color */
-    color: #172B4D;
+    color: #172b4d;
   }
 
   #developerPortfolio {
     /* Color */
-    color: #36B37E;
+    color: #36b37e;
   }
 
   #descriptionPortfolio {
+
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -116,7 +126,8 @@
   /* Desktop / Laptop */
   @media (min-width: 651px) {
 
-    body { 
+    body {
+
       background-image: url('images/desktop_background.png');
       background-size: cover;
       background-repeat: no-repeat;
@@ -125,6 +136,7 @@
     /* Navigation */
     
     .container--nav {
+
       width: 100%;
       display: flex;
       justify-content: center;
@@ -132,14 +144,16 @@
     }
 
     .navegation--list {
+
       width: 50%;
       display: flex;
       justify-content: space-evenly;
     }
 
     .navigation--option {
-      font-family: 'Inter';
-      color: #172B4D;
+
+      font-family: 'Inter', sans-serif;
+      color: #172b4d;
     }
 
     .menu--image {
@@ -148,11 +162,13 @@
 
     /* Main text */
 
-    #titlePortfolio, #developerPortfolio {
+    #titlePortfolio, 
+    #developerPortfolio {
+
       width: 920px;
       font-family: 'Inter', sans-serif;
       font-style: normal;
-      font-weight: 800;
+      font-weight: 800px;
       font-size: 48px;
       line-height: 60px;
       text-align: center;
@@ -161,29 +177,31 @@
 
     #titlePortfolio{
         /* Color */
-      color: #172B4D;
+      color: #172b4d;
     }
 
     #developerPortfolio {
         /* Color */
-      color: #36B37E;
+      color: #36b37e;
     }
 
     #descriptionPortfolio {
+
       width: 920px;
       height: 96px;
       font-family: 'Inter', sans-serif;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 400px;
       font-size: 20px;
       line-height: 32px;
       text-align: center;
-      color: #172B4D;
+      color: #172b4d;
     }
 
-    #titlePortfolio, #descriptionPortfolio {
+    #titlePortfolio, 
+    #descriptionPortfolio {
         /* Color */
-      color: #172B4D;
+      color: #172b4d;
     }
 }
 

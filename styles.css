@@ -32,7 +32,7 @@
 /* About the relevant information */
 
 .main__containerinfo{
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 /* Adjusting mapping for icons */
@@ -59,57 +59,56 @@
     background-repeat: no-repeat;
     }
 
-    /*Navigation buton*/
+    /* Navigation buton */
 
-    .navegation--list{
-      display: none;
-    }
-
-    .container--nav{
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
-    }
-
-    .menu--image{
-      width: auto;
-      height: auto;
-      display: flex;
-      flex-direction: column-reverse;
-      align-self: center;
-    }
-
-    /*Main information*/
-
-    #titlePortfolio, #developerPortfolio{
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 52px;
-      text-align: center;
-      
-    }
-
-    #titlePortfolio, #descriptionPortfolio{
-        /* Color */
-      color: #172B4D;
-    }
-
-    #developerPortfolio{
-        /* Color */
-      color: #36B37E;
-    }
-
-    #descriptionPortfolio{
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 28px;
-      text-align: center;
-    }
+  .navegation--list{
+    display: none;
   }
+
+  .container--nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .menu--image{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: center;
+  }
+
+    /* Main information */
+
+  #titlePortfolio, #developerPortfolio{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center; 
+   }
+
+  #titlePortfolio, #descriptionPortfolio{
+    /* Color */
+    color: #172B4D;
+  }
+
+  #developerPortfolio{
+    /* Color */
+    color: #36B37E;
+  }
+
+  #descriptionPortfolio{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+}
 
   /* Desktop / Laptop */
   @media (min-width: 651px) {
@@ -119,7 +118,7 @@
       background-repeat: no-repeat;
     }
 
-    /*Navigation*/
+    /* Navigation */
 
     .container--nav{
       width: 100%;
@@ -183,9 +182,8 @@
     }
   }
 
-  /*Transitions*/
+  /* Transitions */
 
   .brand--icon:hover{
     box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24)
   }
-  

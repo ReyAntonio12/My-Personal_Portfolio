@@ -76,6 +76,8 @@ you will be able to watch the main information and a brieaf description of how I
 
 - https://reyantonio12.github.io/My-Personal_Portfolio/
 
+<!--This will be available once the pull request is merged-->
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
